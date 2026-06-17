@@ -28,7 +28,12 @@ Clicked: Watched temperature 0 vs 0.7 vs 1.5 produce visibly different outputs.
 Fuzzy: nothing
 Surprised me: nothing
 
-## Day 7 — [date] — Attention, conceptually
-Clicked: [you fill in]
-Fuzzy: [you fill in]
-Surprised me: [you fill in]
+## Day 7 — [date] — Attention, conceptually + repo reorganisation
+Clicked: Query/key/value as roles each token plays — looking up vs offering vs delivering. Repo restructure into src/tests/warmups feels right.
+Fuzzy: Why three roles instead of one — still a bit abstract. Will revisit in Month 2 when building retrieval.
+Surprised me: Why long context windows are computationally expensive — the n² in attention. That's a real constraint not a vague one.
+
+## Day 8 — [date] — The API surface, formalised
+Clicked: The second algorithm was tricky but I got there
+Fuzzy:LLM wrapper was a bit complex
+Surprised me: Nothing
