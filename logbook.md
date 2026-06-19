@@ -35,5 +35,5 @@ Surprised me: Why long context windows are computationally expensive — the n²
 
 ## Day 8 — [date] — The API surface, formalised
 Clicked: The second algorithm was tricky but I got there
-Fuzzy:LLM wrapper was a bit complex
+Fuzzy:Fuzzy: The "why was this designed this way" framing is still developing — I can recite features but the design-rationale framing takes a moment. Lock-in points: choices is a list because of the `n` parameter for multiple completions; the whole point of the wrapper is that swapping providers is a one-file change; system/user separation isn't cosmetic, it's structural in how the model weights them.
 Surprised me: Nothing
